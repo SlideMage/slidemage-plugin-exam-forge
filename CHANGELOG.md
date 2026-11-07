@@ -154,3 +154,20 @@ NEW: Changed slides are remembered, and a few things work more consistently.
 - Removed: the notice about exam questions without a linked slide, which only old banks could trigger, and "Earlier text not stored" in Review changes.
 
 BREAKING: Every file in the question folder starts again at format version 1, and exam questions are now stored as "exam". Question folders made by development versions of Exam Forge do not open; start a new question folder for each deck.
+
+v0.12.0 (2026-11-05, the window's new look): The Exam Forge window looks like its design, in light and dark.
+
+NEW: The window looks like the design: header, framed fields, answer cards.
+- Answers are cards: a correct answer is green with a ✓. The rationale is a quieter line under its answer, and a small ✕ removes the answer.
+- A header shows Exam Forge and the deck, the Questions and Exam switch, and Check slides and Export with icons. The last slide check moves into the footer.
+- Text fields are framed on the card's colour, and the question field grows with its text.
+- The topics column has TOPICS and REVIEW labels, a mark for each row, and a count for unlinked questions; a topic's pencil stays faint until its row is pointed at, and a selected row is grey, not blue.
+- The middle column names the topic or view with one line about its order. Slides show their number in a small box, and questions are framed cards whose labels wrap instead of being cut off.
+- The editor's back link and its labels share one row; the labels are smaller, and an AI draft's label has a sparkle.
+
+v0.13.0 (2026-11-07, shared theme): Exam Forge follows SlideMage's theme and standard controls.
+
+NEW: Requires SlideMage 0.14.36 or newer.
+- Colours, type, spacing, icons and corners come from the host theme; fields, captions and selected rows use the standard kit treatments.
+- Correct answers use the theme's green background and border. Revision chips use the host's monospace option, and topic pencils use its faint state.
+- New topics choose blue, green, teal, pink or slate. Existing red topics keep their saved colour name and display pink, reserving red for errors.
